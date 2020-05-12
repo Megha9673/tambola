@@ -9,7 +9,7 @@ const ejs = require('ejs')
 app.set("view engine","ejs")
 
 // Connect to the db
-const db = "mongodb://meghamegha:qwert123@ds125502.mlab.com:25502/docappointment"
+const db = "mongodb://meghamegha:<password>@ds125502.mlab.com:25502/docappointment"
 mongoose
   .connect(db)
   .then(() => console.log('MongoDB connected'))
